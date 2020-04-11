@@ -1,0 +1,115 @@
+body{
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    background-color: rgba(147, 167, 190, 0.479);
+}
+
+h1, h2{
+    margin: 2px;
+    text-align: center;
+    font-size: 40px;
+}
+#textos{
+    text-align: center;
+}
+#logo{
+    display: block;
+    margin:  0px auto;
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;   
+}
+
+#info{
+    background-color: #4ed8beb0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: palegreen;
+}
+nav ul{
+    margin: 5px;   
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+nav ul li{
+    padding: 20px;
+    font-size: 20px;
+}
+
+header{
+    background-color:rgba(128, 128, 128, 0.616);
+    margin-top: 0px;
+}
+
+.imageSports{
+    float: left;
+    width: 16%;
+}
+div.imageSports p{
+    text-align: center;
+}
+
+#mascotes{
+    display: block;
+    margin:  0px auto;  
+}
+
+@media (max-width: 400px){
+    #logo{
+        width: 100px;
+    }
+    nav ul{
+        display: block;
+    }
+    nav ul li{
+        padding: 5px;
+    }
+    p{
+        margin: 0;
+        padding: 20px;
+    }
+    #esportes{
+        width: 100%;
+    }
+    .imageSports{
+        width: 33.3333%;
+        height: 260px;
+    }
+    #mascotes{
+        width: 80%;
+       
+    }
+}
+
+@media (max-width: 800px){
+    #logo{
+        width: 100px;
+    }
+    nav ul li{
+        padding: 5px;
+    }
+    p{
+        padding: 50px;
+    }
+    #esportes{
+        width: 100%;
+    }
+    .imageSports{
+        width: 22%;
+        height: 260px;
+    }
+    #mascotes{
+        padding-top: 200px;
+        width: 80%;
+       
+    }
+}
+
