@@ -80,7 +80,7 @@ div.imageSports p{
         width: 100%;
     }
     .imageSports{
-        width: 33.3333%;
+        width: 30%;
         height: 260px;
     }
     #mascotes{
@@ -89,27 +89,44 @@ div.imageSports p{
     }
 }
 
-@media (max-width: 800px){
+@media (min-width: 400px){
     #logo{
         width: 100px;
     }
     nav ul li{
         padding: 5px;
     }
-    p{
-        padding: 50px;
+    #esportes{
+        width: 100%;
+    }
+    .imageSports{
+        width: 23.3333%;
+        height: 180px;
+    }
+    #mascotes{
+        padding-top: 20px;
+        width: 40%;
+       
+    }
+}
+@media (min-width: 900px){
+    #logo{
+        width: 100px;
+    }
+    nav ul li{
+        padding: 5px;
     }
     #esportes{
         width: 100%;
     }
     .imageSports{
-        width: 22%;
+        width: 12%;
         height: 260px;
     }
     #mascotes{
-        padding-top: 200px;
-        width: 80%;
-       
+        padding-top: 20px;
+        width: 40%;
     }
 }
+
 
